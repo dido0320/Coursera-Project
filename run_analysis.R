@@ -38,14 +38,14 @@ colnames(finalData) <- c("subject", "activity", as.character(b$value))
 TESTnames<-data.table(read.table(file.path(path, d, 'activity_labels.txt')))
 names(TESTnames ) <- c('activity','activity_type')
 
-#Appropriately label the data set with descriptive variable names.
+#Appropriately label the data set with descriptive variable names
 names(finalData) <- gsub("\\()", "", names(finalData))
 names(finalData) <- gsub("^t", "time", names(finalData))
 names(finalData) <- gsub("^f", "frequence", names(finalData))
 names(finalData) <- gsub("-mean", "Mean", names(finalData))
 names(finalData) <- gsub("-std", "Std", names(finalData))
 
-#Create a second, independent tidy data set with the average of each variable for each activity and each subject.H
+#Create a second, independent tidy data set with the average of each variable for each activity and each subject
 AT<-merge(TESTnames,finalData,by = "activity")
 AT_Tidy<- AT %>% group_by(subject, activity_type)  %>% summarise_each(funs(mean)) %>% select(-activity)
 
