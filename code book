@@ -18,83 +18,25 @@ The first two columns - subject and activity_type - are Identifiers.
 
 Measurements
 As mentioned above, the variables remaining are just the calculated means and standard deviations of these sets of data: 
-•	tBodyAccMeanX
-•	tBodyAccMeanY
-•	tBodyAccMeanZ
-•	tBodyAccStdX
-•	tBodyAccStdY
-•	tBodyAccStdZ
-•	tGravityAccMeanX
-•	tGravityAccMeanY
-•	tGravityAccMeanZ
-•	tGravityAccStdX
-•	tGravityAccStdY
-•	tGravityAccStdZ
-•	tBodyAccJerkMeanX
-•	tBodyAccJerkMeanY
-•	tBodyAccJerkMeanZ
-•	tBodyAccJerkStdX
-•	tBodyAccJerkStdY
-•	tBodyAccJerkStdZ
-•	tBodyGyroMeanX
-•	tBodyGyroMeanY
-•	tBodyGyroMeanZ
-•	tBodyGyroStdX
-•	tBodyGyroStdY
-•	tBodyGyroStdZ
-•	tBodyGyroJerkMeanX
-•	tBodyGyroJerkMeanY
-•	tBodyGyroJerkMeanZ
-•	tBodyGyroJerkStdX
-•	tBodyGyroJerkStdY
-•	tBodyGyroJerkStdZ
-•	tBodyAccMagMean
-•	tBodyAccMagStd
-•	tGravityAccMagMean
-•	tGravityAccMagStd
-•	tBodyAccJerkMagMean
-•	tBodyAccJerkMagStd
-•	tBodyGyroMagMean
-•	tBodyGyroMagStd
-•	tBodyGyroJerkMagMean
-•	tBodyGyroJerkMagStd
-•	fBodyAccMeanX
-•	fBodyAccMeanY
-•	fBodyAccMeanZ
-•	fBodyAccStdX
-•	fBodyAccStdY
-•	fBodyAccStdZ
-•	fBodyAccMeanFreqX
-•	fBodyAccMeanFreqY
-•	fBodyAccMeanFreqZ
-•	fBodyAccJerkMeanX
-•	fBodyAccJerkMeanY
-•	fBodyAccJerkMeanZ
-•	fBodyAccJerkStdX
-•	fBodyAccJerkStdY
-•	fBodyAccJerkStdZ
-•	fBodyAccJerkMeanFreqX
-•	fBodyAccJerkMeanFreqY
-•	fBodyAccJerkMeanFreqZ
-•	fBodyGyroMeanX
-•	fBodyGyroMeanY
-•	fBodyGyroMeanZ
-•	fBodyGyroStdX
-•	fBodyGyroStdY
-•	fBodyGyroStdZ
-•	fBodyGyroMeanFreqX
-•	fBodyGyroMeanFreqY
-•	fBodyGyroMeanFreqZ
-•	fBodyAccMagMean
-•	fBodyAccMagStd
-•	fBodyAccMagMeanFreq
-•	fBodyBodyAccJerkMagMean
-•	fBodyBodyAccJerkMagStd
-•	fBodyBodyAccJerkMagMeanFreq
-•	fBodyBodyGyroMagMean
-•	fBodyBodyGyroMagStd
-•	fBodyBodyGyroMagMeanFreq
-•	fBodyBodyGyroJerkMagMean
-•	fBodyBodyGyroJerkMagStd
-•	fBodyBodyGyroJerkMagMeanFreq
-
+"timeBodyAccMean-X"               "timeBodyAccMean-Y"                "timeBodyAccMean-Z"               
+"timeBodyAccStd-X"                "timeBodyAccStd-Y"                 "timeBodyAccStd-Z"                 
+"timeGravityAccMean-X"            "timeGravityAccMean-Y"             "timeGravityAccMean-Z"            
+"timeGravityAccStd-X"             "timeGravityAccStd-Y"              "timeGravityAccStd-Z"             
+"timeBodyAccJerkMean-X"           "timeBodyAccJerkMean-Y"            "timeBodyAccJerkMean-Z"           
+"timeBodyAccJerkStd-X"            "timeBodyAccJerkStd-Y"             "timeBodyAccJerkStd-Z"            
+"timeBodyGyroMean-X"              "timeBodyGyroMean-Y"               "timeBodyGyroMean-Z"              
+"timeBodyGyroStd-X"               "timeBodyGyroStd-Y"                "timeBodyGyroStd-Z"                
+"timeBodyGyroJerkMean-X"          "timeBodyGyroJerkMean-Y"           "timeBodyGyroJerkMean-Z"           
+"timeBodyGyroJerkStd-X"           "timeBodyGyroJerkStd-Y"            "timeBodyGyroJerkStd-Z"           
+"timeBodyAccMagMean"              "timeBodyAccMagStd"                "timeGravityAccMagMean"            
+"timeGravityAccMagStd"            "timeBodyAccJerkMagMean"           "timeBodyAccJerkMagStd"            
+"timeBodyGyroMagMean"             "timeBodyGyroMagStd"               "timeBodyGyroJerkMagMean"         
+"timeBodyGyroJerkMagStd"          "frequenceBodyAccMean-X"           "frequenceBodyAccMean-Y"           
+"frequenceBodyAccMean-Z"          "frequenceBodyAccStd-X"            "frequenceBodyAccStd-Y"            
+"frequenceBodyAccStd-Z"           "frequenceBodyAccJerkMean-X"       "frequenceBodyAccJerkMean-Y"       
+"frequenceBodyAccJerkMean-Z"      "frequenceBodyAccJerkStd-X"        "frequenceBodyAccJerkStd-Y"        
+"frequenceBodyAccJerkStd-Z"       "frequenceBodyGyroMean-X"          "frequenceBodyGyroMean-Y"          
+"frequenceBodyGyroMean-Z"         "frequenceBodyGyroStd-X"           "frequenceBodyGyroStd-Y"          
+"frequenceBodyGyroStd-Z"          "frequenceBodyAccMagMean"          "frequenceBodyAccMagStd"           
+"frequenceBodyBodyAccJerkMagMean" "frequenceBodyBodyAccJerkMagStd"   "frequenceBodyBodyGyroMagMean"     
+"frequenceBodyBodyGyroMagStd"     "frequenceBodyBodyGyroJerkMagMean" "frequenceBodyBodyGyroJerkMagStd" 
